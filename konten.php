@@ -20,6 +20,10 @@ else if($_GET['p']=='pelanggan'){
 
 
 // menu utk transaksi
+else if($_GET['p']=='tambah'){
+    $title="Tambah Penjualan Baru";
+    $konten="konten/tambah.php";
+}
 else if($_GET['p']=='laporan'){
     $title="Data Laporan";
     $konten="konten/laporan.php";
